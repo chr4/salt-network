@@ -1,0 +1,7 @@
+name: network
+os: Debian, Ubuntu
+os_family: Debian
+version: 201810
+release: 1
+summary: Formula for configuring basic network settings
+description: Formula for configuring basic network settings
