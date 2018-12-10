@@ -9,6 +9,7 @@
     - defaults:
       domain: {{ pillar['network']['domain'] }}
       hostname: {{ grains['id'] }}
+      hosts: {{ pillar['network']['hosts']|default([]) }}
 
 # Set hostname according to minion_id
 /etc/hostname:

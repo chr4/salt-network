@@ -1,2 +1,7 @@
 network:
   domain: example.com
+
+  # Lines to add to /etc/hosts
+  hosts:
+    - 192.168.1.100 mail.example.com mail
+    - 192.168.1.101 db.example.com db
