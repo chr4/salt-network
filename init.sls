@@ -4,7 +4,7 @@
     - user: root
     - group: root
     - mode: 644
-    - source: salt://{{ slspath }}/hosts.jinja
+    - source: salt://{{ tpldir }}/hosts.jinja
     - template: jinja
     - defaults:
       domain: {{ pillar['network']['domain'] }}
